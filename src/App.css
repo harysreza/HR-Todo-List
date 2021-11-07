@@ -20,7 +20,7 @@
 .container {
   background: linear-gradient(90deg, #9f30ff 0%, #01e7ff 100%);
   overflow: auto;
-  min-height: 947px;
+  min-height: 100vh;
 }
 
 .header {
