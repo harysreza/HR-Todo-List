@@ -11,7 +11,6 @@
   padding: 0;
   margin: 0;
   font-family: "Radikal W03 Regular" !important;
-  /* font-size: 16px; */
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
@@ -20,6 +19,7 @@
 
 .container {
   background: linear-gradient(90deg, #9f30ff 0%, #01e7ff 100%);
+  overflow: auto;
   min-height: 947px;
 }
 
