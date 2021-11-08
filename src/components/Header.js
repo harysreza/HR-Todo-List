@@ -4,7 +4,7 @@ function Header({ title }) {
   return (
     <header className="header">
       <h1>
-        Todo List <BsCardChecklist size="2.5rem" />
+        Todo List <BsCardChecklist className="header-icon" />
       </h1>
     </header>
   );

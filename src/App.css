@@ -18,6 +18,7 @@
 }
 
 .container {
+  position: relative;
   background: linear-gradient(90deg, #9f30ff 0%, #01e7ff 100%);
   overflow: auto;
   min-height: 100vh;
@@ -28,15 +29,17 @@
   text-align: center;
 }
 
+.header-icon {
+  font-size: 2.5rem;
+}
+
 .todo-app {
   display: flex;
   flex-direction: column;
   width: 520px;
-  min-height: 600px;
-  /* background: white; */
   text-align: center;
   margin: 10px auto;
-  padding-bottom: 32px;
+  padding-bottom: 50px;
 }
 
 .todo {
@@ -89,4 +92,81 @@
 
 .icons {
   padding-top: 5.2px;
+}
+
+.footer {
+  position: absolute;
+  left: 900px;
+  bottom: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    font-size: 40px;
+  }
+
+  .header-icon {
+    font-size: 5rem;
+  }
+
+  .form-control {
+    width: 820px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 760px;
+    height: 50px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 60px;
+    height: 50px;
+  }
+
+  .todo-app {
+    width: 820px;
+    padding-top: 10px;
+  }
+
+  .footer {
+    position: absolute;
+    left: 450px;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 56vh;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .header-icon {
+    font-size: 2.5rem;
+  }
+
+  .form-control {
+    width: 320px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 240px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 80px;
+  }
+
+  .todo-app {
+    width: 320px;
+  }
+
+  .footer {
+    position: absolute;
+    left: 120px;
+    bottom: 40px;
+  }
 }

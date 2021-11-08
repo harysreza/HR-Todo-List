@@ -2,8 +2,8 @@
 
 function Footer() {
   return (
-    <footer>
-      <p>HR &copy; 2021</p>
+    <footer className="footer">
+      <p>HR Project &copy; 2021</p>
     </footer>
   );
 }
