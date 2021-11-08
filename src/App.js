@@ -74,7 +74,7 @@ function App() {
       <Header />
       <AddTodo onAdd={addTodo} onKey={handleKeyPress} editTodo={editTodo} setEditTodo={setEditTodo} todos={todos} setTodos={setTodos} />
       <div className="todo-app">
-        {todos.length > 0 ? <Todos todos={todos} remove={handleRemove} onToggle={toggleComplete} setEditTodo={setEditTodo} update={handleEdit} /> : "No Plans Todo"}
+        {todos.length > 0 ? <Todos todos={todos} remove={handleRemove} onToggle={toggleComplete} setEditTodo={setEditTodo} update={handleEdit} /> : <div className="no-plans">No Plans Todo</div>}
         <Footer />
       </div>
     </div>

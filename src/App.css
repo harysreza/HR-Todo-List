@@ -63,6 +63,11 @@
   opacity: 0.4;
 }
 
+.no-plans {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
 .form-control {
   width: 520px;
   margin: 10px auto;
@@ -114,6 +119,11 @@
     font-size: 5rem;
   }
 
+  .no-plans {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .form-control {
     width: 820px;
   }
@@ -154,6 +164,11 @@
     font-size: 3rem;
   }
 
+  .no-plans {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .form-control {
     width: 600px;
   }
@@ -191,6 +206,11 @@
     font-size: 2.5rem;
   }
 
+  .no-plans {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .form-control {
     width: 320px;
   }
@@ -218,6 +238,11 @@
     display: table-cell;
     width: 540px;
     height: 100vh;
+  }
+
+  .no-plans {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .form-control {
@@ -255,6 +280,11 @@
 
   .header-icon {
     font-size: 2.5rem;
+  }
+
+  .no-plans {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .form-control {
