@@ -137,7 +137,187 @@
 
 @media screen and (max-width: 600px) {
   .container {
-    width: 56vh;
+    display: table-cell;
+    width: 600px;
+    height: 100vh;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .header-icon {
+    font-size: 2.5rem;
+  }
+
+  .form-control {
+    width: 320px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 240px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 80px;
+  }
+
+  .todo-app {
+    width: 320px;
+  }
+
+  .footer {
+    position: absolute;
+    text-align: center;
+    bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    font-size: 40px;
+  }
+
+  .header-icon {
+    font-size: 5rem;
+  }
+
+  .form-control {
+    width: 820px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 760px;
+    height: 50px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 60px;
+    height: 50px;
+  }
+
+  .todo-app {
+    width: 820px;
+    padding-top: 10px;
+  }
+
+  .footer {
+    position: absolute;
+    text-align: center;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    font-size: 40px;
+  }
+
+  .header-icon {
+    font-size: 5rem;
+  }
+
+  .form-control {
+    width: 820px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 760px;
+    height: 50px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 60px;
+    height: 50px;
+  }
+
+  .todo-app {
+    width: 820px;
+    padding-top: 10px;
+  }
+
+  .footer {
+    position: absolute;
+    left: 450px;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: table-cell;
+    width: 600px;
+    height: 100vh;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .header-icon {
+    font-size: 2.5rem;
+  }
+
+  .form-control {
+    width: 320px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 240px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 80px;
+  }
+
+  .todo-app {
+    width: 320px;
+  }
+
+  .footer {
+    position: absolute;
+    text-align: center;
+    bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 20px;
+  }
+
+  .header-icon {
+    font-size: 3rem;
+  }
+
+  .form-control {
+    width: 600px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 540px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 60px;
+  }
+
+  .todo-app {
+    width: 600px;
+  }
+
+  .footer {
+    position: absolute;
+    left: 320px;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: table-cell;
+    width: 600px;
+    height: 100vh;
   }
 
   .header {
@@ -167,6 +347,86 @@
   .footer {
     position: absolute;
     left: 120px;
+    bottom: 40px;
+  }
+}
+
+@media screen and (width: 540px) {
+  .form-control {
+    width: 420px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 340px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 80px;
+  }
+
+  .todo-app {
+    width: 420px;
+  }
+
+  .footer {
+    position: absolute;
+    left: 210px;
+    bottom: 40px;
+  }
+}
+
+@media screen and (width: 411px) {
+  .footer {
+    position: absolute;
+    left: 150px;
+    bottom: 40px;
+  }
+}
+
+@media screen and (width: 414px) {
+  .footer {
+    position: absolute;
+    left: 150px;
+    bottom: 40px;
+  }
+}
+
+@media screen and (width: 375px) {
+  .footer {
+    position: absolute;
+    left: 130px;
+    bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    font-size: 16px;
+  }
+
+  .header-icon {
+    font-size: 2.5rem;
+  }
+
+  .form-control {
+    width: 290px;
+  }
+
+  .form-control :nth-child(1) {
+    width: 210px;
+  }
+
+  .form-control :nth-child(2) {
+    width: 80px;
+  }
+
+  .todo-app {
+    width: 290px;
+  }
+
+  .footer {
+    position: absolute;
+    left: 100px;
     bottom: 40px;
   }
 }
