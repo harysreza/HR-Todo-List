@@ -95,86 +95,18 @@
 }
 
 .footer {
-  position: absolute;
-  left: 900px;
-  bottom: 50px;
+  text-align: center;
+  margin: 10px auto;
 }
 
 @media screen and (max-width: 1024px) {
-  .header {
-    font-size: 40px;
-  }
-
-  .header-icon {
-    font-size: 5rem;
-  }
-
-  .form-control {
-    width: 820px;
-  }
-
-  .form-control :nth-child(1) {
-    width: 760px;
-    height: 50px;
-  }
-
-  .form-control :nth-child(2) {
-    width: 60px;
-    height: 50px;
-  }
-
-  .todo-app {
-    width: 820px;
-    padding-top: 10px;
-  }
-
-  .footer {
-    position: absolute;
-    left: 450px;
-    bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 600px) {
   .container {
     display: table-cell;
-    width: 600px;
+    width: 1024px;
     height: 100vh;
   }
 
   .header {
-    font-size: 20px;
-  }
-
-  .header-icon {
-    font-size: 2.5rem;
-  }
-
-  .form-control {
-    width: 320px;
-  }
-
-  .form-control :nth-child(1) {
-    width: 240px;
-  }
-
-  .form-control :nth-child(2) {
-    width: 80px;
-  }
-
-  .todo-app {
-    width: 320px;
-  }
-
-  .footer {
-    position: absolute;
-    text-align: center;
-    bottom: 40px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .header {
     font-size: 40px;
   }
 
@@ -202,86 +134,18 @@
   }
 
   .footer {
-    position: absolute;
     text-align: center;
-    bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .header {
-    font-size: 40px;
-  }
-
-  .header-icon {
-    font-size: 5rem;
-  }
-
-  .form-control {
-    width: 820px;
-  }
-
-  .form-control :nth-child(1) {
-    width: 760px;
-    height: 50px;
-  }
-
-  .form-control :nth-child(2) {
-    width: 60px;
-    height: 50px;
-  }
-
-  .todo-app {
-    width: 820px;
-    padding-top: 10px;
-  }
-
-  .footer {
-    position: absolute;
-    left: 450px;
-    bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    display: table-cell;
-    width: 600px;
-    height: 100vh;
-  }
-
-  .header {
-    font-size: 20px;
-  }
-
-  .header-icon {
-    font-size: 2.5rem;
-  }
-
-  .form-control {
-    width: 320px;
-  }
-
-  .form-control :nth-child(1) {
-    width: 240px;
-  }
-
-  .form-control :nth-child(2) {
-    width: 80px;
-  }
-
-  .todo-app {
-    width: 320px;
-  }
-
-  .footer {
-    position: absolute;
-    text-align: center;
-    bottom: 40px;
+    margin: 10px auto;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    display: table-cell;
+    width: 768px;
+    height: 100vh;
+  }
+
   .header {
     font-size: 20px;
   }
@@ -307,9 +171,8 @@
   }
 
   .footer {
-    position: absolute;
-    left: 320px;
-    bottom: 60px;
+    text-align: center;
+    margin: 10px auto;
   }
 }
 
@@ -345,13 +208,18 @@
   }
 
   .footer {
-    position: absolute;
-    left: 120px;
-    bottom: 40px;
+    text-align: center;
+    margin: 10px auto;
   }
 }
 
 @media screen and (width: 540px) {
+  .container {
+    display: table-cell;
+    width: 540px;
+    height: 100vh;
+  }
+
   .form-control {
     width: 420px;
   }
@@ -369,37 +237,18 @@
   }
 
   .footer {
-    position: absolute;
-    left: 210px;
-    bottom: 40px;
-  }
-}
-
-@media screen and (width: 411px) {
-  .footer {
-    position: absolute;
-    left: 150px;
-    bottom: 40px;
-  }
-}
-
-@media screen and (width: 414px) {
-  .footer {
-    position: absolute;
-    left: 150px;
-    bottom: 40px;
-  }
-}
-
-@media screen and (width: 375px) {
-  .footer {
-    position: absolute;
-    left: 130px;
-    bottom: 40px;
+    text-align: center;
+    margin: 10px auto;
   }
 }
 
 @media screen and (max-width: 320px) {
+  .container {
+    display: table-cell;
+    width: 320px;
+    height: 100vh;
+  }
+
   .header {
     font-size: 16px;
   }
@@ -425,8 +274,7 @@
   }
 
   .footer {
-    position: absolute;
-    left: 100px;
-    bottom: 40px;
+    text-align: center;
+    margin: 10px auto;
   }
 }
