@@ -39,23 +39,23 @@
   width: 520px;
   text-align: center;
   margin: 10px auto;
+
   padding-bottom: 50px;
 }
 
 .todo {
+  display: flex;
+  justify-content: space-between;
   padding: 15px 30px;
   margin: 1px;
   background: white;
 }
 
 .todo h3 {
+  word-break: break-all;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.todo p {
-  text-align: start;
 }
 
 .todo.complete h3 {
@@ -96,6 +96,8 @@
 }
 
 .icons {
+  min-width: 100px;
+  padding-left: 20px;
   padding-top: 5.2px;
 }
 
