@@ -1,4 +1,4 @@
-## Simple Todo List made with React
+## Simple Todo List
 
 ## Visit
 
