@@ -1,3 +1,3 @@
-#(https://hr-todo-list.netlify.app) Visit
+# Visit
 
 This project was uploaded [here](https://hr-todo-list.netlify.app)
